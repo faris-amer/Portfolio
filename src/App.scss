@@ -1,0 +1,56 @@
+$whitespace: #f5f5dc;
+$darkspace: rgb(31, 31, 31);
+@font-face{
+  font-family: 'opensans';
+  src: url(assets/fonts/opensans.ttf) format('truetype');
+}
+
+.landingheader-container{
+  
+  background-color: rgb(31, 31, 31);
+  color: $whitespace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+
+  font-family: opensans;
+  font-family: opensans;
+  padding-top: 100px;
+
+  .left{
+    flex-direction: column;
+
+    padding-left: 10%;
+    width: 40%;
+    
+  }
+  .right{
+    flex-direction: column;
+    padding-right: 10%;
+    padding-top:50px;
+    text-align: right;
+    text-wrap: nowrap;
+
+  }
+  header {
+
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  body{
+
+    font-size:20px;
+    margin-bottom:30px;
+    
+  }
+
+  .icon {
+    --fill1: #{$whitespace};
+    --fill2: #{$darkspace}; 
+  }
+}
+
+
+
